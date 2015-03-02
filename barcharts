@@ -1,5 +1,4 @@
 #create stacked bar charts for SI blog post
-setwd("/The Little Dataset/SI")
 si.data <- read.csv('sicover12.csv')
 
 library(ggplot2)
