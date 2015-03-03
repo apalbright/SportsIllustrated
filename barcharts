@@ -1,5 +1,5 @@
 #create stacked bar charts for SI blog post
-si.data <- read.csv('sicover12.csv')
+si.data <- read.csv('sicover.csv')
 
 library(ggplot2)
 library(RColorBrewer)
