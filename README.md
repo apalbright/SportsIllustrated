@@ -4,3 +4,6 @@ Blog post available here: http://thelittledataset.com/2015/02/24/the-distributio
 
 #Stacked bar charts
 In order to create the visualization from this post, download the "sicover12.csv" from the raw_data folder and then run the R script "barcharts," which uses "sicover12.csv."
+
+#R Packges Needed
+You'll have to install ggplot2, RColorBrewer, ggthemes, and gridExtra in order to run the script.
