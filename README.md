@@ -3,4 +3,4 @@ Data and R script for "The Distribution of ‘Sports Illustrated’ Covers: The 
 Blog post available here: http://thelittledataset.com/2015/02/24/the-distribution-of-sports-illustrated-covers-the-bikinid-the-not/
 
 #Stacked bar charts
-In order to create the visualization from this post, download the "sicover12.csv" and run the R script "barcharts."
+In order to create the visualization from this post, download the "sicover12.csv" from the raw_data folder and then run the R script "barcharts," which uses "sicover12.csv."
