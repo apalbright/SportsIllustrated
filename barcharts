@@ -1,4 +1,3 @@
-#create stacked bar charts for SI blog post
 si.data <- read.csv('sicover.csv')
 
 library(ggplot2)
@@ -18,7 +17,7 @@ a<-ggplot(data = si.data, aes(x = Year, y=Frequency, fill = On.Cover)) +
 
 
 #total all covers plot
-si.data1 <- read.csv('sicover1.csv')
+si.data1 <- read.csv('sicovertot.csv')
 
 si.data1$On.Cover <- factor(si.data1$On.Cover, levels = c("Male Athletes/Coaches", "Other Men", "Female Athletes/Coaches", "Female Swimsuit Models", "Other Women", "No People"))
 
@@ -28,7 +27,7 @@ b<-ggplot(data = si.data1, aes(x = Year, y=Frequency, fill = On.Cover)) +
 	theme_tufte(ticks=FALSE, base_family="Georgia")
 
 #women plots
-si.data <- read.csv('justwomen1.csv')
+si.data <- read.csv('justwomen.csv')
 
 library(ggplot2)
 library(RColorBrewer)
@@ -44,7 +43,7 @@ c<-ggplot(data = si.data, aes(x = Year, y=Frequency, fill = On.Cover)) +
 	theme_tufte(ticks=FALSE, base_family="Georgia")
 
 #total women plot
-si.data1 <- read.csv('justwomen.csv')
+si.data1 <- read.csv('justwomentot.csv')
 d<-ggplot(data = si.data1, aes(x = Year, y=Frequency, fill = On.Cover)) + 
     geom_bar(stat="identity")+ coord_flip()+ scale_fill_manual(values = pal1, guide=FALSE) + 
     labs(title = "Who are the Women on 'Sports Illustrated' Covers? (Total)")+
