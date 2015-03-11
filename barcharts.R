@@ -1,9 +1,10 @@
-si.data <- read.csv('sicover.csv')
-
 library(ggplot2)
 library(RColorBrewer)
 library(ggthemes)
 library(gridExtra)
+
+setwd(raw_data)
+si.data <- read.csv('sicover.csv')
 
 si.data$On.Cover <- factor(si.data$On.Cover, levels = c("Male Athletes/Coaches", "Other Men", "Female Athletes/Coaches", "Female Swimsuit Models", "Other Women", "No People"))
 
