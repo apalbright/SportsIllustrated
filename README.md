@@ -1,6 +1,6 @@
 # tld-sportsillustrated
 Raw data and R script for "The Distribution of ‘Sports Illustrated’ Covers: The Bikini’d &amp; The Not"
-Blog post available here: http://thelittledataset.com/2015/02/24/the-distribution-of-sports-illustrated-covers-the-bikinid-the-not/
+Blog post available [here](https://thelittledataset.com/2015/02/24/the-distribution-of-sports-illustrated-covers-the-bikini-d-the-not/)
 
 # Original Stacked bar charts
 In order to create the visualization from this post, clone the repository and R script "barcharts."
